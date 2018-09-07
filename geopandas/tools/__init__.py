@@ -4,7 +4,7 @@ from .geocoding import geocode, reverse_geocode
 from .overlay import overlay
 from .sjoin import sjoin
 from .util import collect
-from .crs import explicit_crs_from_epsg
+from .crs import explicit_crs_from_epsg, epsg_from_crs
 
 __all__ = [
     'overlay',
